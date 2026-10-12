@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="emola15 的薄荷小屋">
+  <defs>
+    <linearGradient id="xqBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9adcd0" />
+      <stop offset="52%" stop-color="#a9cdf3" />
+      <stop offset="100%" stop-color="#f8bcd0" />
+    </linearGradient>
+    <linearGradient id="xqLeaf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e2f6f1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 圆角底 -->
+  <rect x="6" y="6" width="108" height="108" rx="34" fill="url(#xqBg)" />
+  <circle cx="34" cy="34" r="26" fill="#ffffff" opacity="0.22" />
+
+  <!-- 薄荷小屋：屋顶 + 屋身 -->
+  <path d="M38 58 L60 38 L82 58" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M45 57 V80 H75 V57" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="57" y="66" width="8" height="14" rx="3" fill="#ffffff" opacity="0.9" />
+
+  <!-- 冒出来的小芽 -->
+  <path d="M60 38 C60 28 66 24 74 24 C74 32 68 38 60 38 Z" fill="url(#xqLeaf)" opacity="0.95" />
+
+  <!-- 地面点缀 -->
+  <circle cx="36" cy="88" r="3.4" fill="#ffffff" opacity="0.75" />
+  <circle cx="86" cy="86" r="2.6" fill="#ffffff" opacity="0.6" />
+</svg>

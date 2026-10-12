@@ -1,0 +1,2 @@
+# 让 GitHub Pages 不要用 Jekyll 处理产物目录
+# VitePress 的输出本身是纯静态文件，跳过 Jekyll 可以让部署更快、也不会误伤下划线开头的资源
